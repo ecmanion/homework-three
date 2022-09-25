@@ -1,0 +1,48 @@
+.hero{
+    .hero-img{
+        height: 500px;
+        width: 1265px;
+        position: relative;
+        text-align: center;
+        margin-top: -100px;
+        filter: brightness(50%);
+    }
+
+   
+
+.landing-text{
+    height: 200px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    flex-direction: column;
+    margin-top: -170px;
+        .travel-fly{
+            font-size: 70px;
+            font-weight: 100;
+        }
+        .lorem{
+            font-size: 15px;
+            font-weight: 100;
+            width: 500px;
+            margin-top:40px ;
+        }
+}
+
+    .read-more-box{
+      padding: 7px 15px;
+      background-color: #79ADDC;
+      margin-top: 20px;
+      .read-more{
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+      } 
+}
+ }

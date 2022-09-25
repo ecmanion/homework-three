@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1265px;
+  margin: 0 auto;
+  min-height: 500px;
+}
+
+nav {
+  height: 90px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 92px;
+  height: 42;
+  z-index: 2;
+}
+nav .links {
+  height: 42px;
+  width: 370px;
+  color: white;
+  z-index: 2;
+}
+nav .links a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero .hero-img {
+  height: 500px;
+  width: 1265px;
+  position: relative;
+  text-align: center;
+  margin-top: -100px;
+  filter: brightness(50%);
+}
+.hero .landing-text {
+  height: 200px;
+  width: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  flex-direction: column;
+  margin-top: -170px;
+}
+.hero .landing-text .travel-fly {
+  font-size: 70px;
+  font-weight: 100;
+}
+.hero .landing-text .lorem {
+  font-size: 15px;
+  font-weight: 100;
+  width: 500px;
+  margin-top: 40px;
+}
+.hero .read-more-box {
+  padding: 7px 15px;
+  background-color: #79ADDC;
+  margin-top: 20px;
+}
+.hero .read-more-box .read-more {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.trav-deals {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 190px;
+  padding-right: 190px;
+}
+
+.travel-deals {
+  max-height: 304px;
+  max-width: 1500px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -50px;
+  position: relative;
+}
+.travel-deals .td-img {
+  height: 304px;
+  width: 236px;
+  filter: brightness(50%);
+}
+.travel-deals .deal-text {
+  position: absolute;
+  color: white;
+}
+.travel-deals h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+.travel-deals h3 {
+  font-size: 25px;
+  font-weight: 100;
+}
+.travel-deals .learn-more-box {
+  padding: 7px 15px;
+  background-color: #79addc;
+  margin-top: 20px;
+  border-radius: 25px;
+  padding: 10px;
+  display: inline-block;
+}
+.travel-deals .learn-more-box .learn-more {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.booking-form {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.booking-form input, .booking-form textarea {
+  border-color: #79ADDC;
+}
+.booking-form .booking-title {
+  font-size: 50px;
+  font-weight: 100;
+  padding: 50px 50px 30px 0px;
+}
+.booking-form .first-name {
+  display: flex;
+  justify-content: space-between;
+}
+.booking-form .country-hotel {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.booking-form .first {
+  width: 48%;
+  height: 50px;
+  padding-left: 10px;
+}
+.booking-form .check-in {
+  padding-top: 15px;
+}
+.booking-form .check-in .lable {
+  padding-right: 5%;
+  color: grey;
+}
+.booking-form .check-in .in {
+  width: 86.5%;
+  height: 50px;
+  padding-left: 10px;
+}
+.booking-form .check-out {
+  padding-top: 15px;
+}
+.booking-form .check-out .lable {
+  padding-right: 4%;
+  color: grey;
+}
+.booking-form .check-out .out {
+  width: 86.5%;
+  height: 50px;
+  padding-left: 10px;
+}
+.booking-form .six {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+.booking-form .six .three {
+  height: 50px;
+  width: 90px;
+  padding-left: 10px;
+}
+.booking-form .msg {
+  padding-top: 15px;
+}
+.booking-form .msg .message {
+  height: 200px;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.booking-form .acr {
+  color: grey;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.booking-form .submit {
+  height: 40px;
+  width: 100%;
+  background-color: #79ADDC;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 40px 0 100px 0;
+}
+.booking-form .submit .submit-link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-weight: 100;
+}
+
+.footer-nav {
+  height: 90px;
+  max-width: 1265px;
+  background-color: #79addc;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer-nav .footer-logo {
+  width: 92px;
+  height: 42;
+}
+.footer-nav .copyright {
+  color: white;
+}
+.footer-nav .links {
+  height: 42px;
+  width: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-nav .links .logo-img {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+.footer-nav .links a {
+  text-decoration: none;
+  color: white;
+}
